@@ -1,4 +1,4 @@
 FROM ubuntu:latest
-COPY ./curl.sh ./
+COPY ./stress.sh ./
 RUN chmod +x stress.sh
 CMD ["./stress.sh"]
