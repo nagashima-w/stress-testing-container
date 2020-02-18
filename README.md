@@ -5,5 +5,5 @@
 ## つかいかた
 
 ```bash
-docker run nagashimaw/stress-testing-container
+docker run -d nagashimaw/stress-testing-container
 ```
