@@ -5,8 +5,5 @@
 ## つかいかた
 
 ```bash
-git clone https://github.com/nagashima-w/stress-testing-container.git
-cd stress-testing-container/tools
-docker build ./ -t stress-testing
-docker run -d stress-testing
+docker run nagashimaw/stress-testing-container
 ```
